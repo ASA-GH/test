@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './users.module.css';
 import * as axios from 'axios';
 import userPhoto from '../../assets/images/user.png';
-
+//ggggg
 class Users extends React.Component {
     componentDidMount() {
     // axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`)
