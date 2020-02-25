@@ -1,6 +1,8 @@
 .dialogs {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .dialogsItems {
@@ -14,6 +16,8 @@
 
 .messages {
     padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .messages .message {

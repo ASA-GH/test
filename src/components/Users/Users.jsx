@@ -30,16 +30,17 @@ class Users extends React.Component {
         for (let i=1; i <= pagesCount; i++) {
             pages.push(i);
         }
-            return <div>
-                            <div>
+            return <div className={styles.userPage1}>
+                            <div className={styles.selectedPage2}>
                 { pages.map( p => {
                     return <span className={this.props.currentPage ===  p && styles.selectedPage }
-                    onClick={(e) => { this.onPageChanged(p); }}>{p}</span>
+                    onClick={(e) => { this.onPageChanged(p); }}>{p}
+                    </span>
+
                 })}
             </div>
-
-                {
-                    this.props.users.map(u => <div key={u.id}>
+                <div className={styles.friendlist}>
+                { this.props.users.map(u => <div key={u.id}>
                 <span>
                     <div>
                     <img src={u.photos.small != null ? u.photos.small : userPhoto} className={styles.userPhoto}/>                    </div>
@@ -65,6 +66,7 @@ class Users extends React.Component {
                 </span>
                 </div>)
             }
+            </div>
         </div>
     }
 }

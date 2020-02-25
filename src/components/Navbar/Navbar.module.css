@@ -1,14 +1,20 @@
 .nav{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1.3fr 1fr 1fr 1fr 1.2fr 1fr;
+    text-align: right ;
+    font-size: medium;
+    font-weight: 900;
     grid-area: n;
-    background-color: #dc3545;
-    padding: 40px;
+    background-color: #00174f;
+    padding: 20px;
 }
 
 .item a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item a.activeLink {
-    color: gold;
+    color: #cc0c2f;
 }
