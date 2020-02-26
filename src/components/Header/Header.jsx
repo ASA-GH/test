@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import headerLogo from '../../assets/images/Joker3.png';
+import headerLogo from '../../assets/images/joker/Joker3.png';
 
 const Header = (props) => {
     return <header className={styles.header}>

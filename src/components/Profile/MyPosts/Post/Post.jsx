@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Post.module.css';
-import postImages from '../../../../assets/images/Joker2.jpg';
+import postImages from '../../../../assets/images/joker/Joker2.jpg';
 const Post = (props) => {
   return (
     <div className={s.item}>
