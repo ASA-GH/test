@@ -1,14 +1,14 @@
 import React from 'react';
-import s from './ProfileInfo.module.css';
+import style from './ProfileInfo.module.css';
 
 const ProfileInfo = () => {
     return (
         <div>
-            <div>
+            <div className={style.block1}>
                 <img src='https://static.zerochan.net/108.%28artist%29.full.135048.jpg'/>
                
             </div>
-            <div className={s.descriptionBlock}>
+            <div className={style.descriptionBlock}>
                 ava + description
             </div>
         </div>

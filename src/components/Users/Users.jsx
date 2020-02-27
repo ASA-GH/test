@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from "./users.module.css";
 import userPhoto from "../../assets/images//joker/Joker6.png";
+import FriendsOnline from './FriendsOnline/FriendsOnline.jsx';
+import InformationPerson from './InformationPerson/InformationPerson.jsx';
+//import informationPerson from './informationPerson/informationPerson';
 //import userPhoto from "../../assets/images//joker/Joker7.png";
 //import userPhoto from "../../assets/images//joker/Joker9.jpg";
 
@@ -14,20 +17,8 @@ let Users = (props) => {
     }
 
     return <div className={styles.friendlist}>
-        <div className={styles.informationPerson}>
-        <div className={styles.informationPerson1}></div>
-        <div className={styles.informationPerson2}></div>
-        <div className={styles.informationPerson3}></div>
-        <div className={styles.informationPerson4}></div>
-        <div className={styles.informationPerson5}>
-        {/*<img src={userPhoto} className={styles.userPhoto}/>*/}
-        </div>
-        <div className={styles.informationPerson6}></div> 
-        <div className={styles.informationPerson7}></div>
-        <div className={styles.informationPerson8}></div>
-        <div className={styles.informationPerson9}></div> 
-
-        </div>
+        <InformationPerson />
+        
         <div className={styles.listOfPeople}>
         <div className={styles.pageNumber}>
             {pages.map(p => {
@@ -70,18 +61,7 @@ let Users = (props) => {
         }
         </div>
         </div>
-        <div className={styles.friendsOnline}>
-        <div className={styles.friendsOnline1}></div>
-        <div className={styles.friendsOnline2}></div>
-        <div className={styles.friendsOnline3}></div>
-        <div className={styles.friendsOnline4}></div>
-        <div className={styles.friendsOnline5}></div>
-        <div className={styles.friendsOnline6}></div>
-        <div className={styles.friendsOnline7}></div>
-        <div className={styles.friendsOnline8}></div>
-        <div className={styles.friendsOnline9}></div>
-
-        </div>
+        <FriendsOnline />
     </div>
 }
 export default Users;

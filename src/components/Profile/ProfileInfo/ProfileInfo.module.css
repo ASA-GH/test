@@ -1,3 +1,10 @@
 .descriptionBlock {
     padding: 10px;
 }
+.block1{
+    display: grid;
+    background-color:  black;
+    padding: 0px 0px 0px 10px;
+    
+
+}

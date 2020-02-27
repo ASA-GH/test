@@ -1,0 +1,12 @@
+
+.informationPersonA{
+    /*background-color: darkgoldenrod;*/
+    display: grid;
+    grid-template-rows: 50px 500px 50px;
+    grid-template-columns:50px 1fr 50px;
+    height: auto;
+    /*box-shadow: 0px 0px 0px 1px #00174f;*/
+}
+.informationPerson5{
+    box-shadow: 0px 0px 0px 1px #dc3545;
+}
