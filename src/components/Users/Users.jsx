@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./users.module.css";
-import userPhoto from "../../assets/images//joker/Joker6.png";
+import userPhoto from "../../assets/images/joker/Joker6.png";
+import userBackground from "../../assets/images/background/background3.jpg";
 import FriendsOnline from './FriendsOnline/FriendsOnline.jsx';
 import InformationPerson from './InformationPerson/InformationPerson.jsx';
 //import informationPerson from './informationPerson/informationPerson';
@@ -34,8 +35,11 @@ let Users = (props) => {
                 <div className={styles.person2}>
                 <span >
                     <div>
+                    <img src={u.photos.large !=null ? u.photos.large : userBackground} 
+                             className={styles.userBackground} />         </div>   
+                    <div>
                     <img src={u.photos.small != null ? u.photos.small : userPhoto}
-                             className={styles.userPhoto}/>                    </div>
+                             className={styles.userPhoto}/>      </div>
                     <div>
                         {u.followed
                             ? <button onClick={() => {

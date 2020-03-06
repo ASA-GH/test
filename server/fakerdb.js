@@ -9,7 +9,7 @@ module.exports = function(){
             uniqueUrlName: null,
             photos: {
                 small:faker.image.avatar(),
-                large: null
+                large:faker.image.imageUrl()
               },
               status:faker.hacker.phrase(),
               followed: false
