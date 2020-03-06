@@ -7,7 +7,8 @@ import Users from "./Users";
 
 class UsersContainer extends React.Component {
     componentDidMount() {
-        axios.get(`http://localhost:3800/items`)
+        axios.get(`http://localhost:3800/items?_limit=${this.props.pageSize}&_page=${this.props.currentPage}`)
+        //axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`)
             .then(response => {
                 this.props.setUsers(response.data);
             });
@@ -19,7 +20,7 @@ class UsersContainer extends React.Component {
 
     onPageChanged = (pageNumber) => {
         this.props.setCurrentPage(pageNumber);
-        axios.get(`http://localhost:3800/items`)
+        axios.get(`http://localhost:3800/items?_limit=${this.props.pageSize}&_page=${pageNumber}`)
             .then(response => {
                 this.props.setUsers(response.data);
             });
