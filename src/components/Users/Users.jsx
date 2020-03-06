@@ -35,7 +35,7 @@ let Users = (props) => {
                 <div className={styles.person2}>
                 <span >
                     <div>
-                    <img src={u.photos.large !=null ? u.photos.large : userBackground} 
+                    <img src={/*u.photos.large !=null ? u.photos.large :*/ userBackground} 
                              className={styles.userBackground} />         </div>   
                     <div>
                     <img src={u.photos.small != null ? u.photos.small : userPhoto}
