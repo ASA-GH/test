@@ -1,28 +1,28 @@
 import React from 'react';
-import s from './Navbar.module.css';
+import style from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className={s.nav}>
+        <nav className={style.nav}>
             <span> </span>
-            <span className={`${s.item} ${s.active}`}>
-                <NavLink to="/profile" activeClassName={s.activeLink}>PROFILE</NavLink>
+            <span className={`${style.item} ${style.active}`}>
+                <NavLink to="/profile" activeClassName={style.activeLink}>PROFILE</NavLink>
             </span>
-            <span className={`${s.item} ${s.active}`}> 
-                <NavLink to="/dialogs" activeClassName={s.activeLink}>MESSAGES</NavLink>
+            <span className={`${style.item} ${style.active}`}> 
+                <NavLink to="/dialogs" activeClassName={style.activeLink}>MESSAGES</NavLink>
             </span>
-            <span className={`${s.item} ${s.active}`}>
-                <NavLink to="/users" activeClassName={s.activeLink}>FRIEND</NavLink>
+            <span className={`${style.item} ${style.active}`}>
+                <NavLink to="/users" activeClassName={style.activeLink}>FRIEND</NavLink>
             </span>
-            <span className={`${s.item} ${s.active}`}>
-                <NavLink to="/news" activeClassName={s.activeLink}>NEWS</NavLink>
+            <span className={`${style.item} ${style.active}`}>
+                <NavLink to="/news" activeClassName={style.activeLink}>NEWS</NavLink>
             </span>
-            <span className={`${s.item} ${s.active}`}>
-                <NavLink to="/music" activeClassName={s.activeLink}>MUSIC</NavLink>
+            <span className={`${style.item} ${style.active}`}>
+                <NavLink to="/music" activeClassName={style.activeLink}>MUSIC</NavLink>
             </span>
-            <span className={`${s.item} ${s.active}`}>
-                <NavLink to="/settings" activeClassName={s.activeLink}>SETTINGS</NavLink>
+            <span className={`${style.item} ${style.active}`}>
+                <NavLink to="/settings" activeClassName={style.activeLink}>SETTINGS</NavLink>
             </span>
             <span> </span>
         </nav>

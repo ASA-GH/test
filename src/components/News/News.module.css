@@ -1,7 +1,66 @@
 .newsTest{
     display: grid;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px;
-    box-shadow: 0px 0px 0px 1px #00174f;
+    grid-template-rows: repeat(2, 500px);
+    grid-template-columns: repeat(3, 500px);
+    grid-gap: 40px;
+    
+}
+.newsTest1{
+    display: grid;
+    background-color: rgba(220, 220, 200);
+    
 
+}
+.newsTest1Div{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 40px;
+}
+.newsTest2{
+    display: grid;
+    background-color: #e0e5ec;
+
+}
+.newsTest2Div{
+    display: grid;
+    /*justify-self: center;*/
+    align-self: center;
+    
+    padding: 0 10%;
+}
+.newsTest3{
+    display: grid;
+    background: #e9e9e9;
+}
+.newsTest3Div{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+   
+}
+
+
+
+.newsTest4{
+    display: grid;
+    background: #e9e9e9;
+}
+.newsTest4Div{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 40px;
+}
+.newsTest5{
+    display: grid;
+    background-color: #e9e9e9;
+
+}
+.newsTest5Div{
+    display: grid;
+    /*justify-self: center;*/
+    align-self: center;
+    
+    padding: 0 10%;
 }

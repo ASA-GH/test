@@ -1,5 +1,11 @@
 .profileWrapper{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
+    grid-template-columns:  minmax(360px, 30vw) 1fr;
+    grid-column-gap: 100px;
+    padding: 25px; 
+    
 }
+.profileInfoWrapper{
+ height: 55vh;
+}
+

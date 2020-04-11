@@ -1,0 +1,26 @@
+.widgetButton1{
+   display: grid;
+    text-align:center;
+    color: darkolivegreen;
+    /*color: #00174f;*/
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.7),
+                 7px 7px 20px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    width: 130px;
+    height: max-content;
+}
+.widgetButton1:hover{
+   cursor: pointer;
+
+}
+.widgetButton1:active{
+   cursor: pointer;
+   color: green;
+   /*color: #cc0c2f;*/
+   box-shadow: inset -7px -7px 20px 0 rgba(255,255,255,0.7),
+               inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}

@@ -6,13 +6,13 @@
 
     grid-template-rows: 1fr ;
     grid-template-columns: 1fr;
-    /*grid-gap: 10px;*/ 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*grid-gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/ 
 }
 
 .app-wrapper-content {
     grid-area: b b;
-    background-color: #fff;
+    background-color: #e9e9e9;
     
 }
 

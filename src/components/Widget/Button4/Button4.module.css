@@ -1,0 +1,30 @@
+.widgetButton4{
+   display: grid;
+    text-align:center;
+    /*color: #525252;*/
+    color: #00174f;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    /*font-family: "Fira Mono", monospace, sans-serif;*/
+    
+    padding: 15px;
+    width: 130px;
+    height: max-content;
+}
+.widgetButton4:hover{
+   cursor: pointer;
+   box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ ;
+              
+ 
+
+}
+.widgetButton4:active{
+   cursor: pointer;
+  /*color: #ff652f;*/
+    color: #cc0c2f;
+   box-shadow: inset -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+               inset 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ ;
+
+}

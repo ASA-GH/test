@@ -5,8 +5,13 @@
     font-size: medium;
     font-weight: 900;
     grid-area: n;
+    grid-gap: 10px;
     background-color: #00174f;
     padding: 20px;
+   /* border-radius: 3px;
+    background: #00174f;
+    box-shadow:  7px 7px 19px #000f33, 
+                 -7px -7px 19px #001f6b;*/
 }
 
 .item a {

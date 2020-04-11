@@ -34,7 +34,7 @@ const ProfileInfo = () => {
         <div className={style.overlayHeader}></div>
         <div className={style.body}>
             <img src={UserImage} alt="User1" className={style.bodyImage}/>
-        <div className={style.bodyActionButton, style.uFlexCenter}>
+        <div className={`${style.bodyActionButton} ${style.uFlexCenter}`}>
             <svg fill="#ffffff" height="28" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
                 <path d="M0 0h24v24H0z" fill="none"/>
@@ -52,7 +52,7 @@ const ProfileInfo = () => {
         <span></span>
         <span></span>
         </div>
-<div className={style.card, style.UClearfix}>
+<div className={`${style.card} ${style.UClearfix}`}>
     <span className={style.cardHeading}>Movies </span>
     <span className={style.cardMore}>
         <svg fill="#777777" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
@@ -74,4 +74,4 @@ const ProfileInfo = () => {
     )
 }
 
-export default ProfileInfo;
+//export default ProfileInfo;

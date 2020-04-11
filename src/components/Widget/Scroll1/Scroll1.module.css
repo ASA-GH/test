@@ -1,0 +1,35 @@
+.wrapWidgetScroll1{
+    display: grid;
+    width: 400px;
+    grid-gap: 20px;
+}
+.widgetScroll1{
+    width: 100%;
+    background-color: #e0e6ec;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6),
+                -9px -9px 16px rgba(255,255,255,0.5);
+    border-radius: 50px;            
+}
+.singleBox1{
+    font-size: 70%;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: cyan;
+    font-weight: bold;
+}
+.box1{
+    width: 50%;
+    background-color: #838ea0;
+    border-radius: 50px;
+}
+.box2{
+    width: 70%;
+    background-color: #838ea0;
+    border-radius: 50px;
+}
+.box3{
+    width: 35%;
+    background-color: #838ea0;
+    border-radius: 50px;
+}
