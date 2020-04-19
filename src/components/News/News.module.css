@@ -64,3 +64,20 @@
     
     padding: 0 10%;
 }
+.newsTest6{
+    display: grid;
+   
+
+}
+.newsTest6Div{
+    display: grid;
+    /*justify-self: center;*/
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    
+    padding: 0 10%;
+}
+.a{
+    background: red;
+}

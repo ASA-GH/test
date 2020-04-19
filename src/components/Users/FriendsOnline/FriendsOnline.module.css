@@ -4,6 +4,7 @@
     grid-template-columns:50px 1fr 50px;
     height: auto;
     /*box-shadow: 0px 0px 0px 1px #00174f;*/
+    background: #272c3c;
 }
 .friendsOnline5{
     box-shadow: 0px 0px 0px 1px #dc3545;

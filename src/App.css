@@ -1,12 +1,17 @@
+*{
+  box-sizing: border-box;  
+}
+
+
 .app-wrapper {
     margin: 0 auto;
     display: grid;
     /*width: 1200px;*/
-    grid-template-areas: "h h" "n c";
+    grid-template-areas: "h" "n" "c";
 
-    grid-template-rows: 1fr ;
+   /* grid-template-rows: 1fr ;
     grid-template-columns: 1fr;
-    /*grid-gap: 10px;
+    grid-gap: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/ 
 }
 

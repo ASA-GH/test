@@ -20,48 +20,46 @@ let Users = (props) => {
     return <div className={styles.friendlist}>
         <InformationPerson />
         
-        <div className={styles.listOfPeople}>
+        <div className={styles.listOfPeople0}>
+        <div className={styles.listOfPeople1}>   
         <div className={styles.pageNumber}>
             {pages.map(p => {
-                return <span className={props.currentPage === p && styles.selectedPage}
+                return <div className={props.currentPage === p && styles.selectedPage}
                              onClick={(e) => {
                                  props.onPageChanged(p);
-                             }}>{p}</span>
+                             }}>{p}</div>
             })}
         </div>
-        <div className={styles.listOfPerson}>
+        </div> 
+        <div className={styles.listOfPerson2}>
         {
             props.users.map(u => <div className={styles.person1} key={u.id}>
-                <div className={styles.person2}>
-                <span >
-                    <div>
-                    <img src={/*u.photos.large !=null ? u.photos.large :*/ userBackground} 
+                <div className={styles.wrapUserBackground}> 
+                    <img src={u.photos.large !=null ? u.photos.large : userBackground} alt="Background"
                              className={styles.userBackground} />         </div>   
-                    <div>
-                    <img src={u.photos.small != null ? u.photos.small : userPhoto}
+                    <div className={styles.wrapUserPhoto}>
+                    <img src={u.photos.small != null ? u.photos.small : userPhoto} alt="User1"
                              className={styles.userPhoto}/>      </div>
-                    <div>
-                        {u.followed
-                            ? <button onClick={() => {
-                                props.unfollow(u.id)
-                            }}>Unfollow</button>
-                            : <button onClick={() => {
-                                props.follow(u.id)
-                            }}>Follow</button>}
-                    </div>
-                </span>
-                    <span>
-                    <span>
-                        <div>{u.name}</div>
-                        <div>{u.status}</div>
-                    </span>
-                    <span>
-                        <div>{"u.location.country"}</div>
-                        <div>{"u.location.city"}</div>
-                    </span>
-                </span>
+                <div className={styles.name} alt="Name" >{u.name}</div>
+                <div className={styles.countryAndCity}>
+                        <div className={styles.country} alt="Country">{"u.location.country"}</div>
+                        <div className={styles.city} alt="City">{"u.location.city"}</div>
                 </div>
-                </div>)
+                        <div className={styles.status} alt="Status" >{u.status}</div>
+                        <div className={styles.button}>
+                        {u.followed
+                            ? <div onClick={() => {
+                                props.unfollow(u.id) 
+                            }}><div className={styles.friend}>Friend</div></div>
+                            : <div onClick={() => {
+                                props.follow(u.id)
+                            }}><div className={styles.addFriend}>Add friend</div></div>}
+                    </div>
+
+
+
+                </div>
+                )
         }
         </div>
         </div>

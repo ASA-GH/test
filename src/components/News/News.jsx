@@ -5,7 +5,7 @@ import Button4 from "./../Widget/Button4/Button4"
 import Scroll1 from "./../Widget/Scroll1/Scroll1"
 import Scroll5 from "./../Widget/Scroll5/Scroll5"
 import Login1 from "./../Widget/Login1/Login1"
-
+import Cardwrapperd from "./../Widget/Cardwrapperd/Cardwrapperd"
 
 let News = (props) =>{
     return <div className={style.newsTest}>
@@ -40,6 +40,13 @@ let News = (props) =>{
         <Scroll5 />
         </div>
         </div>   
+        <div className={style.newsTest6}>
+        <div className={style.newsTest6Div}>
+        <Cardwrapperd>
+            <div className={style.a}>
+            </div></Cardwrapperd>
+        </div>
+        </div>  
     </div>
 }
 export default News;

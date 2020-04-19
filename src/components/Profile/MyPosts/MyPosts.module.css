@@ -1,4 +1,5 @@
 .postsBlock {
+
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -6,4 +7,7 @@
 .posts {
     margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.postsBlock h3 {
+    color: #cc0c2f;
 }
