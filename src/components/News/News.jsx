@@ -5,9 +5,12 @@ import Button4 from "./../Widget/Button4/Button4"
 import Scroll1 from "./../Widget/Scroll1/Scroll1"
 import Scroll5 from "./../Widget/Scroll5/Scroll5"
 import Login1 from "./../Widget/Login1/Login1"
-import Cardwrapperd from "./../Widget/Cardwrapperd/Cardwrapperd"
+import Card from "./../Widget/Card/Card"
 
 let News = (props) =>{
+    let car = {
+        name: 14
+    }
     return <div className={style.newsTest}>
         <div className={style.newsTest1}>
            <div className={style.newsTest1Div}>
@@ -25,7 +28,7 @@ let News = (props) =>{
         </div>
         <div className={style.newsTest3}>
         <div className={style.newsTest3Div}>    
-            <Login1/>
+        <Login1 />
         </div>
         </div>
         <div className={style.newsTest4}>
@@ -42,10 +45,11 @@ let News = (props) =>{
         </div>   
         <div className={style.newsTest6}>
         <div className={style.newsTest6Div}>
-        <Cardwrapperd>
-            <div className={style.a}>
-            </div></Cardwrapperd>
-        </div>
+
+{car.name == '14' ? 'y' : 'n'}
+
+
+</div>           
         </div>  
     </div>
 }

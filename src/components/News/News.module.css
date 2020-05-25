@@ -75,9 +75,7 @@
     align-self: center;
     width: 400px;
     height: 400px;
-    
+    color: green;
     padding: 0 10%;
-}
-.a{
-    background: red;
+    font-size: 40px;
 }
