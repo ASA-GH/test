@@ -7,6 +7,7 @@ import {Route} from "react-router-dom";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import News from './components/News/News';
+import Home from './components/Home/Home';
 
 const App = () => {
     return (
@@ -28,7 +29,7 @@ const App = () => {
                            render={ () => <Music /> }/>
                     <Route path='/settings'
                            render={ () => <Settings /> }/> */}    
-                    <Route path='/Home'
+                    <Route path='/home'
                            render={ () => <Home /> }/>
                            
 </div>
@@ -37,4 +38,4 @@ const App = () => {
         )
 }
 
-export default App;
+export default App;setTimeout(function() {}, 10);
