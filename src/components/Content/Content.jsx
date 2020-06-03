@@ -7,7 +7,7 @@ import { Route } from 'react-router-dom';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import UsersContainer from "./components/Users/UsersContainer";
 import News from './components/News/News';
-
+import Home from './components/Home/Home'
 
 <div className='app-wrapper-content'>
     <Route path='/dialogs' render={ () => <DialogsContainer /> }/>
