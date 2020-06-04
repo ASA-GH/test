@@ -1,31 +1,18 @@
 import React from 'react';
 import styles from './Header.module.css';
 import headerLogo from '../../assets/images/joker/Joker3.png';
-
+import Card from './../Widget/Card/Card.jsx';
+import images
 const Header = (props) => {
-    return 
-    from 'react';
-    import './App.css';
-    import Navbar from './components/Navbar/Navbar';
-    import Card from './../Widget/Card/Card.jsx';
-    
-    const App = (props) => {
       return (
         <Card 
           className="Header"
           width = { 1200 }
           height = { 1200 }
           Tag = 'header'
-          >
-                    <Navbar />
-                    <Card 
-                    className="appInner"
-                    width = { 90% }
-                    height = { 100% } >
-                    <HeaderContainer />
-                    <Content />
-                    <FooterContainer /> 
-                    </Card>
+        >
+        <img ,src={headerLogo} />
+         <div className={styles.a}>FAKE SOCIAL NETWORK FOR SOCIOPATHS.</div>
                 </Card>
       )
     }
