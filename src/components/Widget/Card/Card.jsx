@@ -1,12 +1,13 @@
 import React from 'react';
-import './Card.css';
 import PropTypes from 'prop-types';
 import classNames from 'classnames'
+import './Card.css';
 
-
-const Card= ({
+const Card = ({
   children,
   className,
+  width,
+  height,
   tag: Tag,
   ...attrs
 }) => {
@@ -16,8 +17,13 @@ const Card= ({
   );
 
   return (
-    <Tag className={classes} {...attrs}>
-      {children}
+    <Tag 
+    className={classes}
+    width={width}
+    height={height}
+    {...attrs}
+    >
+    {children}
     </Tag>
   );
 };
@@ -26,12 +32,16 @@ Card.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
 
 Card.defaultProps = {
   children: null,
   className: '',
   tag: 'div',
+  width: 100,
+  height: 100,
 };
 
 
