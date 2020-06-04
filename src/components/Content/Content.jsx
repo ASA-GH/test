@@ -1,19 +1,18 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
+import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
-import DialogsContainer from './components/Dialogs/DialogsContainer';
-import UsersContainer from "./components/Users/UsersContainer";
-import News from './components/News/News';
-import Home from './components/Home/Home'
+import ProfileContainer from './../Profile/ProfileContainer';
+import DialogsContainer from './../Dialogs/DialogsContainer';
+import UsersContainer from './../Users/UsersContainer';
+import NewsContainer from './../News/NewsContainer';
+import HomeContainer from './../Home/HomeContainer';
 
-<div className='app-wrapper-content'>
+const  Content = (props) => (
+<Fragment>
     <Route path='/dialogs' render={ () => <DialogsContainer /> }/>
-    <Route path='/profile' render={ () => <Profile /> }/>
+    <Route path='/profile' render={ () => <ProfileContainer /> }/>
     <Route path='/users' render={ () => <UsersContainer /> }/>
-    <Route path='/news' render={ () => <News /> }/>
-    <Route path='/home' render={ () => <Home /> }/>
-               
-</div>
+    <Route path='/news' render={ () => <NewsContainer /> }/>
+    <Route path='/home' render={ () => <HomeContainer /> }/>
+</Fragment>               
+    );
+    export default Content;
