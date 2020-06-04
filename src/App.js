@@ -4,26 +4,33 @@ import HeaderContainer from './components/Header/HeaderContainer';
 import Navbar from './components/Navbar/Navbar';
 import Content from './components/Content/Content';
 import FooterContainer from './components/Footer/FooterContainer';
-import Card from './components/Widget/Card/Card.jsx';
-
-const App = (props) => {
+import Card from './components/Widget/Card/Card';
+import Sandbox from './components/Widget/badge/Sandbox'
+const App = () => {
+    
     return (
-            <Card 
-            className="appWrapper"
-            width = { 1200 }
-            height = { 1200 }
-            >
-                <Navbar />
-                <Card 
-                className="appInner"
-                width = { 90% }
-                height = { 100% } >
-                <HeaderContainer />
-                <Content />
-                <FooterContainer /> 
-                </Card>
-            </Card>
+        <div className = 'wrapperApp'>  
+        <Sandbox />
+        </div>
+              
         )
 }
 
 export default App;
+
+
+{/*
+                <Navbar />
+                
+                <Card 
+                className="appInner"
+                width = { 1100 }
+                height = { 1200 } >
+            
+                <HeaderContainer />
+                <Content />
+                <FooterContainer /> 
+                
+                </Card>
+                */}
+        

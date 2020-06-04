@@ -1,24 +1,7 @@
-*{
-  box-sizing: border-box;  
+
+
+.wrapperApp{
+  background-color: #00174f;
+  width: 100vw;
+  height: 100vh;
 }
-
-
-.app-wrapper {
-    margin: 0 auto;
-    display: grid;
-    /*width: 1200px;*/
-    grid-template-areas: "h" "n" "c";
-
-   /* grid-template-rows: 1fr ;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/ 
-}
-
-.app-wrapper-content {
-    grid-area: b b;
-    background-color: #e9e9e9;
-    
-}
-
-
