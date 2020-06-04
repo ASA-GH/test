@@ -2,10 +2,10 @@ import React from 'react';
 import style from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
 
-const Navbar = () => {
-    return (
-        <nav className={style.nav}>
-            <span> </span>
+const Navbar = (props) => {
+    /* return (
+       <nav className={style.nav}>
+
             <span className={`${style.item} ${style.active}`}>
                 <NavLink to="/home" activeClassName={style.activeLink}>HOME</NavLink>
             <span className={`${style.item} ${style.active}`}>
@@ -26,9 +26,9 @@ const Navbar = () => {
             <span className={`${style.item} ${style.active}`}>
                 <NavLink to="/settings" activeClassName={style.activeLink}>SETTINGS</NavLink>
             </span>
-            <span> </span>
         </nav>
-    )
-}
+        
+    )*/
+};
 
 export default Navbar;
