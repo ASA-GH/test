@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Header.module.css';
 import headerLogo from '../../assets/images/joker/Joker3.png';
 import Card from './../Widget/Card/Card.jsx';
-import images
+import Image from './../Widget/image/Image';
 const Header = (props) => {
-      return (
+      /*return (
         <Card 
           className="Header"
           width = { 1200 }
@@ -27,7 +27,7 @@ const Header = (props) => {
         <div className={styles.b}>You don’t like to communicate? You are welcome!</div>
 </span>
     </header>
-    )
+    )*/
 }
 
 export default Header;
