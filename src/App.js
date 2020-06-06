@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/Header/HeaderContainer';
@@ -5,13 +6,19 @@ import Navbar from './components/Navbar/Navbar';
 import Content from './components/Content/Content';
 import FooterContainer from './components/Footer/FooterContainer';
 import Card from './components/Widget/Card/Card';
-import Sandbox from './components/Widget/badge/Sandbox'
-const App = () => {
+const App = (props) => {
     
     return (
-        <div className = 'wrapperApp'>  
-        <Sandbox />
-        </div>
+      <div className = 'wrapperApp'>  
+        <Card wrapperCard >
+          <Navbar />
+          <Card innerApp >
+           <HeaderContainer />
+           <Content />
+           <FooterContainer />
+          </Card>
+        </Card>   
+      </div>
               
         )
 }
