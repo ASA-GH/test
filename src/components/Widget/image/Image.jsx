@@ -9,7 +9,8 @@ const Image = ({
 }) => {
   const classes = classNames(
     className,
-    { circle },
+     { circle },
+     { centerGrid: attrs.centerGrid},
   );
 
   if (!src) {
@@ -31,8 +32,8 @@ const Image = ({
 Image.propTypes = {
   src: PropTypes.string,
   alt: PropTypes.string,
-  width: PropTypes.number,
-  height: PropTypes.number,
+  width: PropTypes.string,
+  height: PropTypes.string,
   circle: PropTypes.bool,
   className: PropTypes.string,
 };
@@ -40,8 +41,8 @@ Image.propTypes = {
 Image.defaultProps = {
   src: '',
   alt: 'image',
-  width: 100,
-  height: 100,
+  width: '100px',
+  height: '100px',
   circle: false,
   className: '',
 };
