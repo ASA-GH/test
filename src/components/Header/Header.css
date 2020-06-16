@@ -1,4 +1,4 @@
-.header {
+/*.header {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-area: h;
@@ -7,19 +7,15 @@
     justify-items: start;
     align-items: center;
 }
+*/
 
-.header img {
-    width: 80px;
-    /*padding: 5px;*/
-}
+
 
 .headerText {
-    
-    font-size: larger;
+    align-self: center;
 }
 .a{
 color: #00174f;
-font-weight: 900;
 }
 .b{
 color: #cc0c2f;
