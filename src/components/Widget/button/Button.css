@@ -1,4 +1,50 @@
-.btn {
+
+.circular{
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: -6px -6px 9px 0 #fff ,
+               6px 6px 9px 0 rgba(0,0,0, 0.4);
+
+}
+.backgroundColor{
+  background-color: #e9e9e9;
+
+}
+.circular:hover{
+  box-shadow: -6px -6px 9px 0 #fff ,
+               6px 6px 9px 0 rgba(0,0,0, 0.4),
+}
+.circular:active{
+  box-shadow: inset -6px -6px 9px 0 #fff ,
+               inset 6px 6px 9px 0 rgba(0,0,0, 0.4);
+
+}
+.wrapperMusicFooter{
+  align-self: center;
+  width: 30px;
+  height: 30px;
+}
+.btn{
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: -6px -6px 9px 0 #fff ,
+               6px 6px 9px 0 rgba(0,0,0, 0.4);
+}
+.wrapperNav {
+  align-self: center;
+  width: 50px;
+  height: 50px;
+}
+.btn:hover{
+  box-shadow: -6px -6px 9px 0 #fff ,
+               6px 6px 9px 0 rgba(0,0,0, 0.4),
+}
+.btn:active{
+  box-shadow: inset -6px -6px 9px 0 #fff ,
+               inset 6px 6px 9px 0 rgba(0,0,0, 0.4);
+}
+/*
+.btnA {
   position: relative;
   padding: 10px 15px;
   background-color: #7CC6fE;
@@ -11,23 +57,24 @@
   text-decoration: none;
 }
 
-.btn:hover {
+.btnA:hover {
   background-color: #70B4E6;
 }
 
-.btn[disabled] {
+.btnA[disabled] {
   opacity: .5;
   cursor: not-allowed;
 }
 
-.btn.active {
+.btnA.active {
   background-color: #23C9FF;
   border: 1px solid #5EB2F2;
   box-shadow: 0px 0 2px 0px #C0C0C0;
 }
 
-.btn.invert {
+.btnA.invert {
   background-color: #FFF;
   color: #000;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+*/

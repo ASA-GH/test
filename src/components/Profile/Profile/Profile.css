@@ -1,0 +1,16 @@
+.profileWrapper{
+    display: grid;
+    grid-template-columns: 480px 480px 1fr;
+    grid-column-gap: 50px;
+    padding: 25px; 
+    
+}
+.profileInfoWrapper{
+ height: 750px;
+}
+.profileSettingsWrapper{
+ height: 750px;
+}
+.myPostsWrapper{
+    background: #272c3c;
+}

@@ -4,45 +4,34 @@ import classNames from 'classnames'
 import './Card.css';
 
 const Card = ({
-  children,
   className,
-  width,
-  height,
   tag: Tag,
   ...attrs
 }) => {
   const classes = classNames(
-    'Card',
+    'card',
     className,
+    { innerApp: attrs.innerApp },
+    { wrapperHeader: attrs.wrapperHeader },
+    { wrapperCardApp: attrs.wrapperCardApp },
+    { wrapperFooter: attrs.wrapperFooter },
+    { wrapperTest: attrs.wrapperTest },
+
   );
 
   return (
-    <Tag 
-    className={classes}
-    width={width}
-    height={height}
-    {...attrs}
-    >
-    {children}
-    </Tag>
+    <Tag className={classes} {...attrs}  />
+  
   );
 };
 
 Card.propTypes = {
-  children: PropTypes.node,
   className: PropTypes.string,
   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
-
 Card.defaultProps = {
-  children: null,
   className: '',
   tag: 'div',
-  width: 100,
-  height: 100,
 };
-
 
 export default Card;

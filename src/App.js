@@ -10,13 +10,13 @@ const App = (props) => {
     
     return (
       <div className = 'wrapperApp'>  
-        <Card wrapperCard >
+        <Card wrapperCardApp >
           <Navbar />
           <Card innerApp >
            <HeaderContainer />
-           <Content />
+            <Content />
            <FooterContainer />
-          </Card>
+          </Card> 
         </Card>   
       </div>
               

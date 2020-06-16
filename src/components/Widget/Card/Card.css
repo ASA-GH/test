@@ -1,8 +1,46 @@
-.Card{
-   
+.card{  
     border-radius: 5px;
     background-color: #e9e9e9;
-    box-shadow: 6px 6px 9px  rgba(0,0,0, 0.4),
-                -6px -6px 9px  #fff;
                 
 }
+.wrapperCardApp {
+    display: grid;
+    width: 60vw;
+    height: 90vh;    
+    border-radius: 5px;
+    grid-template-columns: 10% 90%;
+                
+}
+.innerApp {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    width: 100%;
+    height: 100%;
+    box-shadow: -12px 0 12px -6px #fff;
+    justify-items: center;
+    align-items: center;
+} 
+
+.wrapperHeader{
+    display:grid;
+    grid-template-columns: 10% 1fr 10% 10% 10%;
+    width: 90%;
+    height: 60%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperFooter {
+    display:grid;
+    grid-template-columns: 10% 1fr;
+    width: 90%;
+    height: 60%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperTest {
+       align-self: center;
+       width: 50px;
+       height: 50px;
+       box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                    6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+   }

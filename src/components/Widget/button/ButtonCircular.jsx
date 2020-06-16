@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import './Button.css';
 
-const Button = ({
+const ButtonCircular = ({
    onClick, className, disabled, active, invert, ...attrs
 }) => {
   const onClickAction = e => {
@@ -16,12 +16,15 @@ const Button = ({
   };
 
   const classes = classNames(
-    'btn',
+    'circular',
     className,
     { active },
     { invert },
+    { wrapperLoginHeader: attrs.wrapperLoginHeader },
+    { wrapperMusicFooter: attrs.wrapperMusicFooter },
     { wrapperNav: attrs.wrapperNav },
-    { backgroundColort: attrs.backgroundColor },
+    { backgroundColort: attrs.backgroundColort },
+
 
   );
 
@@ -38,18 +41,18 @@ const Button = ({
   );
 };
 
-Button.propTypes = {
+ButtonCircular.propTypes = {
   onClick: PropTypes.func,
   className: PropTypes.string,
   disabled: PropTypes.bool,
   active: PropTypes.bool,
 };
 
-Button.defaultProps = {
+ButtonCircular.defaultProps = {
   onClick: () => {},
   className: '',
   disabled: false,
   active: false,
 };
 
-export default Button;
+export default ButtonCircular;

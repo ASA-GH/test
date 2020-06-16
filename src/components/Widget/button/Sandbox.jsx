@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { Fragment } from 'react';
-import Button from './Button';
+import Button from './UniversalButton';
 
 const Sandbox = () => (
   <Fragment>

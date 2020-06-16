@@ -1,8 +1,17 @@
 import React from 'react';
-import style from './Navbar.module.css';
+import './Navbar.css';
 import {NavLink} from "react-router-dom";
-
+import Button from '../Widget/button/Button';
 const Navbar = (props) => {
+     return (
+         <div className='buttonGroupNav'>
+             <Button wrapperNav backgroundColort>HOME</Button>
+             <Button wrapperNav backgroundColort>PROFILE</Button>
+             <Button wrapperNav backgroundColort>NEWS</Button>
+             <Button wrapperNav backgroundColort>MUSIC</Button>
+             <Button wrapperNav backgroundColort>SETTINGS</Button>
+         </div>
+     )
     /* return (
        <nav className={style.nav}>
 

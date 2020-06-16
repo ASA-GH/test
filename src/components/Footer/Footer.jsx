@@ -3,12 +3,17 @@ import  './Footer.css';
 import musicAlbum from '../../assets/images/musicImages/littleBig.jpg';
 import Card from './../Widget/Card/Card.jsx';
 import Image from './../Widget/image/Image';
+import ButtonCircular from './../Widget/button/ButtonCircular';
 const Footer = (props) => {
 
   return (
     <Card wrapperFooter>
      <Image src={ musicAlbum }  width={'60px'}  height={'60px'} centerGrid />
-     <div />
+     <div>
+     <ButtonCircular  wrapperMusicFooter backgroundColort></ButtonCircular>
+     <ButtonCircular wrapperNav backgroundColort></ButtonCircular>
+     <ButtonCircular wrapperMusicFooter backgroundColort></ButtonCircular>
+     </div>
     </Card>  
       
 

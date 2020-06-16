@@ -3,6 +3,9 @@ import './Header.css';
 import headerLogo from '../../assets/images/joker/Joker3.png';
 import Card from './../Widget/Card/Card.jsx';
 import Image from './../Widget/image/Image';
+import ButtonCircular from './../Widget/button/ButtonCircular'
+import Button from './../Widget/button/Button'
+
 const Header = (props) => {
 
   return (
@@ -12,9 +15,9 @@ const Header = (props) => {
         <div className='a'>FAKE SOCIAL NETWORK FOR SOCIOPATHS.</div>
         <div className='b'>You don’t like to communicate? You are welcome!</div>
       </span>
-      <Card wrapperTest />
-      <Card wrapperTest />
-      <Card wrapperTest />
+      <Button wrapperNav backgroundColort>mes</Button>
+      <Button wrapperNav backgroundColort>fre</Button>
+      <ButtonCircular wrapperNav backgroundColort>sin</ButtonCircular>
     </Card>
       )
     }

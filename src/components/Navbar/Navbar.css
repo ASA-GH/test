@@ -1,3 +1,18 @@
+.buttonGroupNav{
+    height: 60%;
+    display: inline-grid;
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+}
+
+
+.n{
+    background-color: chartreuse;
+    width: 30px;
+    height: 100%;
+}
+
 .nav{
     display: grid;
     grid-template-columns: 8fr 1fr 1.3fr 1fr 1fr 1fr 1.2fr 1fr;
