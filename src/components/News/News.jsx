@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./News.module.css";
+import './News.css';
 import Button1 from "./../Widget/Button1/Button1"
 import Button4 from "./../Widget/Button4/Button4"
 import Scroll1 from "./../Widget/Scroll1/Scroll1"
@@ -8,10 +8,21 @@ import Login1 from "./../Widget/Login1/Login1"
 import Card from "./../Widget/Card/Card"
 
 let News = (props) =>{
-    let car = {
+   /* let car = {
         name: 14
-    }
-    return <div className={style.newsTest}>
+    }*/
+    return(
+        <div className='wrapperNews'>
+       <Card wrapperMessagesomeDialogs />
+       <Card wrapperContactsDialogs />
+         </div>
+
+
+
+    ) 
+    
+    
+   /* <div className={style.newsTest}>
         <div className={style.newsTest1}>
            <div className={style.newsTest1Div}>
                <Button1 />
@@ -51,6 +62,6 @@ let News = (props) =>{
 
 </div>           
         </div>  
-    </div>
+    </div> */
 }
 export default News;
