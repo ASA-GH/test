@@ -1,0 +1,22 @@
+/*.header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-area: h;
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    justify-items: start;
+    align-items: center;
+}
+*/
+
+
+
+.headerText {
+    align-self: center;
+}
+.a{
+color: #00174f;
+}
+.b{
+color: #cc0c2f;
+}
