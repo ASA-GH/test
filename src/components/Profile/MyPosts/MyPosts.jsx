@@ -1,6 +1,5 @@
 import React from 'react';
-import s from './MyPosts.module.css';
-import Post from './Post/Post';
+/*import Post from './Post/Post';
 
 const MyPosts = (props) => {
     let postsElements =
@@ -18,7 +17,7 @@ const MyPosts = (props) => {
     }
 
     return (
-        <div className={s.postsBlock}>
+        <div className='postsBlock'>
             <h3>My posts</h3>
             <div>
                 <div>
@@ -29,11 +28,11 @@ const MyPosts = (props) => {
                     <button onClick={ onAddPost }>Add post</button>
                 </div>
             </div>
-            <div className={s.posts}>
+            <div className='posts'>
                 { postsElements }
             </div>
         </div>
     )
 }
 
-export default MyPosts;
+export default MyPosts;*/

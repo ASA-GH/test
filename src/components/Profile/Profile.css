@@ -1,0 +1,31 @@
+.wrapperProfile{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: space-between;
+}
+.wrapperColumnOneProfile{
+    display: grid;
+    justify-items: start;
+    grid-template-rows: 60% 40%;
+    align-content: space-between;
+    grid-auto-flow: column;
+}
+
+.profileWrapper{
+    display: grid;
+    grid-template-columns: 480px 480px 1fr;
+    grid-column-gap: 50px;
+    padding: 25px; 
+    
+}
+.profileInfoWrapper{
+ height: 750px;
+}
+.profileSettingsWrapper{
+ height: 750px;
+}
+.myPostsWrapper{
+    background: #272c3c;
+}
