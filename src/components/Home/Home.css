@@ -1,0 +1,15 @@
+.wrapperHome{
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 45% 30%;
+  justify-content: space-between;
+}
+.wrapperColumnOneHome{
+  display: grid;
+  justify-items: start;
+  grid-template-rows: 60% 40%;
+  align-content: space-between;
+  grid-auto-flow: column;
+
+}
