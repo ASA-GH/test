@@ -1,15 +1,35 @@
 import React from 'react';
-import styles from "./users.module.css";
+import './Users.css';
 import userPhoto from "../../assets/images/joker/Joker6.png";
 import userBackground from "../../assets/images/background/background3.jpg";
 import FriendsOnline from './FriendsOnline/FriendsOnline.jsx';
 import InformationPerson from './InformationPerson/InformationPerson.jsx';
+import Card from './../Widget/Card/Card'
 //import informationPerson from './informationPerson/informationPerson';
 //import userPhoto from "../../assets/images//joker/Joker7.png";
 //import userPhoto from "../../assets/images//joker/Joker9.jpg";
 
 let Users = (props) => {
 
+    return(
+        <div className='wrapperUsers'>
+         <div className='wrapperColumnOneUsers'>
+        <Card wrapperProfileHome />
+        <Card wrapperUnderTheProfileHome />
+        </div>
+        <Card wrapperNewsHome />
+        <Card wrapperFriendsHome />
+          </div>
+      );
+
+
+
+
+
+
+
+
+    /*
     let pagesCount = Math.ceil (props.totalUsersCount / props.pageSize);
 
     let pages = [];
@@ -64,6 +84,6 @@ let Users = (props) => {
         </div>
         </div>
         <FriendsOnline />
-    </div>
+    </div>*/
 }
 export default Users;

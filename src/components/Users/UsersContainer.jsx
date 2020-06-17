@@ -2,9 +2,21 @@ import React from 'react';
 import {connect} from "react-redux";
 import {followAC, setCurrentPageAC, setUsersAC, setUsersTotalCountAC, unfollowAC} from "../../redux/users-reducer";
 import * as axios from "axios";
-import Users from "./Users";
+import Users from './Users';
 
 
+
+const UsersContainer = (props) => {
+    return (
+        <Users />
+    )
+  };
+         
+  export default UsersContainer;
+
+
+
+/*
 class UsersContainer extends React.Component {
     componentDidMount() {
         axios.get(`http://localhost:3800/items?_limit=${this.props.pageSize}&_page=${this.props.currentPage}`)
@@ -70,3 +82,9 @@ let mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(UsersContainer); 
+
+*/
+
+
+
+
