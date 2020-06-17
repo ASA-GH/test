@@ -1,5 +1,9 @@
-
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
 .circular{
+
   border-radius: 50%;
   cursor: pointer;
   box-shadow: -6px -6px 9px 0 #fff ,
@@ -18,11 +22,6 @@
   box-shadow: inset -6px -6px 9px 0 #fff ,
                inset 6px 6px 9px 0 rgba(0,0,0, 0.4);
 
-}
-.wrapperMusicFooter{
-  align-self: center;
-  width: 30px;
-  height: 30px;
 }
 .btn{
   border-radius: 5px;
