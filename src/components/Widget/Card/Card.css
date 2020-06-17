@@ -21,17 +21,9 @@
     align-items: center;
 } 
 
-.wrapperHeader{
+.wrapperHeaderAndFooter{
     display:grid;
     grid-template-columns: 10% 1fr 10% 10% 10%;
-    width: 90%;
-    height: 60%;
-    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
-                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
-}
-.wrapperFooter {
-    display:grid;
-    grid-template-columns: 10% 1fr;
     width: 90%;
     height: 60%;
     box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
@@ -43,4 +35,80 @@
        height: 50px;
        box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
                     6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
-   }
+}
+.wrapperProfileHome{
+    width: 80%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperUnderTheProfileHome{
+    align-self: end;
+    width: 80%;
+    height: 70%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperNewsHome{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperFriendsHome{
+    justify-self: end;
+    width: 80%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperMessagesomeDialogs{
+    width: 95%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+
+}
+.wrapperContactsDialogs{
+    justify-self: end;
+    width: 95%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+
+}
+.wrapperSettings{
+    justify-self: center;
+    width: 90%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperMyPostProfile{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperTrackListMusic{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperUnderTheProfileMusic{
+    align-self: end;
+    width: 80%;
+    height: 70%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}
+.wrapperAlbumMusic{
+    width: 80%;
+    height: 100%;
+    box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,
+                 6px 6px 9px 0 rgba(0,0,0, 0.4)/*rgba(0,0,0,0.2)*/ 
+}

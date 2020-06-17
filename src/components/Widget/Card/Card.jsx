@@ -12,10 +12,20 @@ const Card = ({
     'card',
     className,
     { innerApp: attrs.innerApp },
-    { wrapperHeader: attrs.wrapperHeader },
+    { wrapperHeaderAndFooter: attrs.wrapperHeaderAndFooter },
     { wrapperCardApp: attrs.wrapperCardApp },
-    { wrapperFooter: attrs.wrapperFooter },
     { wrapperTest: attrs.wrapperTest },
+    { wrapperProfileHome: attrs.wrapperProfileHome },
+    { wrapperUnderTheProfileHome: attrs.wrapperUnderTheProfileHome },
+    { wrapperNewsHome: attrs.wrapperNewsHome },
+    { wrapperFriendsHome: attrs.wrapperFriendsHome },
+    { wrapperMessagesomeDialogs: attrs.wrapperMessagesomeDialogs},
+    { wrapperContactsDialogs: attrs.wrapperContactsDialogs },
+    { wrapperSettings: attrs.wrapperSettings },
+    { wrapperMyPostProfile: attrs.wrapperMyPostProfile },
+    { wrapperTrackListMusic: attrs.wrapperTrackListMusic },
+    { wrapperUnderTheProfileMusic: attrs.wrapperUnderTheProfileMusic },
+    { wrapperAlbumMusic: attrs.wrapperAlbumMusic },
 
   );
 
