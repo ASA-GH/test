@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './../Dialogs.module.css';
+import './../Dialogs.css';
 
 const Message = (props) => {
-    return <div className={s.dialog}>{props.message}</div>
+    return <div className='dialog'>{props.message}</div>
 }
 
 export default Message;

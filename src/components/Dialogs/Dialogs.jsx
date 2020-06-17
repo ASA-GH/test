@@ -1,10 +1,11 @@
 import React from 'react';
-import s from './Dialogs.module.css';
+import './Dialogs.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import Card from './../Widget/Card/Card'
 
 const Dialogs = (props) => {
-
+/*
     let state = props.dialogsPage;
 
     let dialogsElements = state.dialogs.map( d => <DialogItem name={d.name} key={d.id} id={d.id} />  );
@@ -19,9 +20,16 @@ const Dialogs = (props) => {
         let body = e.target.value;
         props.updateNewMessageBody(body);
     }
-
+*/
     return (
-        <div className={s.dialogs}>
+        <div className='wrapperDialogse'>
+       <Card wrapperMessagesomeDialogs />
+       <Card wrapperContactsDialogs />
+         </div>
+    )
+       /*
+       
+       <div className={s.dialogs}>
             <div className={s.dialogsItems}>
                 { dialogsElements }
             </div>
@@ -35,7 +43,7 @@ const Dialogs = (props) => {
                 </div>
             </div>
         </div>
-    )
+    )*/
 }
 
 export default Dialogs;
