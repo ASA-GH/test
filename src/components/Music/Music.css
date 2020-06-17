@@ -1,0 +1,14 @@
+.wrapperMusic{
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+.wrapperColumnOneMusic{
+  display: grid;
+  justify-items: start;
+  grid-template-rows: 50% 50%;
+  align-content: space-between;
+  grid-auto-flow: column;
+}
