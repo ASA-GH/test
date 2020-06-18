@@ -25,16 +25,16 @@ const App = (props) => {
         <Card wrapperCardApp >
           <Navbar />
           <Card innerApp >
-           <HeaderContainer />
-         {/*  <Content /> 
-           <HomeContainer/>
-           <DialogsContainer/>*/}
-          <MusicContainer />
-     {/*     <ProfileContainer/>
+          <HeaderContainer />
+           <Content /> 
+       {/*  <HomeContainer/>
+            <DialogsContainer/>
+            <MusicContainer />
+            <ProfileContainer/>
             <NewsContainer/>
-       <UsersContainer/>
+            <UsersContainer/>
             <SettingsContainer/>*/}
-        <FooterContainer />
+          <FooterContainer />
           </Card> 
         </Card>   
       </div>

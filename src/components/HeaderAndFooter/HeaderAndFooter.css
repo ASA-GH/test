@@ -20,3 +20,8 @@ color: #00174f;
 .b{
 color: #cc0c2f;
 }
+.wrapperButtons{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  align-items: center;
+}

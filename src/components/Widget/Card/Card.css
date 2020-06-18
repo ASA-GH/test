@@ -23,7 +23,7 @@
 
 .wrapperHeaderAndFooter{
     display:grid;
-    grid-template-columns: 10% 1fr 10% 10% 10%;
+    grid-template-columns: 10% 1fr 30%;
     width: 90%;
     height: 60%;
     box-shadow: -6px -6px 9px 0 #fff /*rgba(255,255,255,0.7)*/,

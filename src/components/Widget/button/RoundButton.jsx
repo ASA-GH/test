@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import './Button.css';
 
 const ButtonCircular = ({
-   onClick, className, disabled, active, invert, ...attrs
+   onClick, className, disabled, active, invert, tag: Tag, ...attrs
 }) => {
   const onClickAction = e => {
     if (disabled) {
@@ -16,7 +16,7 @@ const ButtonCircular = ({
   };
 
   const classes = classNames(
-    'circular',
+    'btnCircle',
     className,
     { active },
     { invert },
@@ -28,7 +28,6 @@ const ButtonCircular = ({
 
   );
 
-  const Tag = attrs.href ? 'a' : 'div';
 
   return (
     <Tag
@@ -46,6 +45,7 @@ ButtonCircular.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   active: PropTypes.bool,
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
 };
 
 ButtonCircular.defaultProps = {
@@ -53,6 +53,7 @@ ButtonCircular.defaultProps = {
   className: '',
   disabled: false,
   active: false,
+  tag: 'div',
 };
 
 export default ButtonCircular;

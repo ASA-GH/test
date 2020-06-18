@@ -3,16 +3,18 @@ import  './HeaderAndFooter.css';
 import musicAlbum from '../../assets/images/musicImages/littleBig.jpg';
 import Card from '../Widget/Card/Card.jsx';
 import Image from '../Widget/image/Image';
-import ButtonCircular from '../Widget/button/ButtonCircular';
+import RoundButton from '../Widget/button/RoundButton';
 const Footer = (props) => {
 
   return (
     <Card wrapperHeaderAndFooter>
      <Image src={ musicAlbum }  width={'60px'}  height={'60px'} centerGrid />
      <div className='trackScale'/>
-     <ButtonCircular wrapperNav></ButtonCircular>
-     <ButtonCircular wrapperNav></ButtonCircular>
-     <ButtonCircular wrapperNav></ButtonCircular>
+     <div className='wrapperButtons'>
+     <RoundButton wrapperNav></RoundButton>
+     <RoundButton wrapperNav></RoundButton>
+     <RoundButton wrapperNav></RoundButton>
+     </div>
     </Card>  
       
 

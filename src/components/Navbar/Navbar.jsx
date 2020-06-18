@@ -5,16 +5,26 @@ import Button from '../Widget/button/Button';
 const Navbar = (props) => {
      return (
          <div className='buttonGroupNav'>
-             <Button wrapperNav backgroundColort>HOME</Button>
-             <Button wrapperNav backgroundColort>PROFILE</Button>
-             <Button wrapperNav backgroundColort>NEWS</Button>
-             <Button wrapperNav backgroundColort>MUSIC</Button>
-             <Button wrapperNav backgroundColort>SETTINGS</Button>
+
+            <NavLink to="/" exact>
+                 <Button wrapperNav>HOME</Button>
+            </NavLink>
+            <NavLink to="/profile" exact>
+                 <Button wrapperNav>PROFILE</Button>
+            </NavLink>
+            <NavLink to="/news" exact>
+                <Button wrapperNav>NEWS</Button>
+            </NavLink>
+            <NavLink to="/music" exact>
+                <Button wrapperNav>MUSIC</Button>
+            </NavLink>
+            <NavLink to="/settings" exact>
+                <Button wrapperNav>SETTINGS</Button>
+            </NavLink>
          </div>
      )
     /* return (
        <nav className={style.nav}>
-
             <span className={`${style.item} ${style.active}`}>
                 <NavLink to="/home" activeClassName={style.activeLink}>HOME</NavLink>
             <span className={`${style.item} ${style.active}`}>
