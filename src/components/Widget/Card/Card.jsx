@@ -26,6 +26,7 @@ const Card = ({
     { wrapperTrackListMusic: attrs.wrapperTrackListMusic },
     { wrapperUnderTheProfileMusic: attrs.wrapperUnderTheProfileMusic },
     { wrapperAlbumMusic: attrs.wrapperAlbumMusic },
+    { wrapperLogin: attrs.wrapperLogin },
 
   );
 

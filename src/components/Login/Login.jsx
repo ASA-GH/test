@@ -1,6 +1,11 @@
 import React from 'react';
-import style from './Login1.module.css';
-import Card from  './../Card/Card'
+import './Login.css';
+import Card from  '../../components/Widget/Card/Card'
+
+
+
+
+/*
 const LoginForm = (props) => {
     return (
             <form>
@@ -17,15 +22,16 @@ const LoginForm = (props) => {
             <button className={style.button2Login1}>Restore password ?</button>
             </form>
 )
-}
-const Login1 = (props) => {
+}*/
+const Login = (props) => {
     return (
-        <div className={style.wrapLogin1}>
-            <div className={style.titleLogin1}>Sign up</div>
-            <LoginForm />
-         </div>
+        <Card wrapperLogin>
+           <div className='titleLogin'>Sign up</div> 
+          {/*<LoginForm />*/}
+          <div/>
+        </Card>
     )    
      
 }
 
-export default Login1;
+export default Login;

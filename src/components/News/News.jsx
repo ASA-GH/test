@@ -1,10 +1,10 @@
 import React from 'react';
 import './News.css';
-import Button1 from "./../Widget/Button1/Button1"
+/*import Button1 from "./../Widget/Button1/Button1"
 import Button4 from "./../Widget/Button4/Button4"
 import Scroll1 from "./../Widget/Scroll1/Scroll1"
 import Scroll5 from "./../Widget/Scroll5/Scroll5"
-import Login1 from "./../Widget/Login1/Login1"
+import Login1 from "./../Widget/Login1/Login1"*/
 import Card from "./../Widget/Card/Card"
 
 let News = (props) =>{

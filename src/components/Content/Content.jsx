@@ -7,6 +7,7 @@ import NewsContainer from './../News/NewsContainer';
 import HomeContainer from './../Home/HomeContainer';
 import MusicContainer from './../Music/MusicContainer';
 import SettingsContainer from './../Settings/SettingsContainer';
+import LoginContainer from './../Login/LoginContainer';
 
 const  Content = (props) => {
  return(
@@ -18,6 +19,8 @@ const  Content = (props) => {
     <Route path="/news" exact strict render={ () => <NewsContainer/> }/>
     <Route path="/music" exact strict render={ () => <MusicContainer /> }/>
     <Route path="/settings" exact strict render={ () => <SettingsContainer/> }/>
+    <Route path="/login" exact strict render={ () => <LoginContainer/> }/>
+
 </Fragment>    
 );
  };

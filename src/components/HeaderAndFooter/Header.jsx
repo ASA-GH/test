@@ -23,7 +23,7 @@ const Header = (props) => {
       <NavLink to='/users'>
             <Button wrapperNav>FRE</Button>
       </NavLink>   
-      <NavLink to='/users'>
+      <NavLink to='/login'>
       <RoundButton wrapperNav>sin</RoundButton>
       </NavLink>   
       </div>
